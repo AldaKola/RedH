@@ -1,0 +1,101 @@
+/* Bootstrap Media Queries */
+
+/* Large Devices(Desktops & Laptops */
+@media (min-width: 1200px) {
+ .col-md-5{
+  justify-content: flex-end;
+ }
+ .col-md-5{
+  justify-content: flex-start;
+ }
+ #slider{
+  width: 35em;
+  height: 47em;
+ }
+
+}
+/* Medium Devices(Landscape tablets & Medium Desktops */
+@media (min-width: 992px) and (max-width: 1199px){
+ .new-image1 img{
+  justify-content: right;
+ }
+ .new-image2 img{
+  justify-content: left;
+ }
+ #slider{
+  width: 28em;
+  height: 45em;
+ }
+ .vl{
+  margin: 0 4rem 0 0;
+ }
+
+}
+
+/* Small Devices(Portrait tablets & Small Desktops */
+@media (min-width: 768px) and (max-width: 991px){
+
+ .new-image1 img{
+  width: 300px;
+ }
+ .new-image2 img{
+  width: 300px;
+ }
+ #slider{
+  width: 28em;
+  height: 45em;
+ }
+ .vl h3{
+  font-size: 16px;
+ 
+ }
+ .vl ul{
+  line-height: 2.5em;
+ }
+ .vl{
+  margin: 0 1.8rem 0 0;
+ }
+ 
+
+}
+
+/* extrasmall Devices(Landscape Phone & Portrait Tablets */
+@media (min-width:280px) and (max-width: 767px){
+ #home h1{
+  font-size: 28px;
+  padding: 30px;
+ }
+ #banner{
+  height: 22vh;
+ }
+ 
+h2{
+ font-size: 35px;
+}
+
+ .new-image1 img{
+  width: 340px;
+ }
+.new-image2 img{
+ width: 340px;
+  
+}
+#slider{
+ width: 13em;
+ height: 23em;
+ margin: 9px auto;
+}
+
+.vl{
+ font-size: 15px;
+ height: auto;
+ border-right:none;
+ 
+}
+.vl h3{
+ font-size: 16px;
+}
+.vl .ul{
+ text-align: center;
+}
+}
