@@ -59,7 +59,7 @@ $(function() {
 
         $("html, body").animate({
           scrollTop: $(section_id).offset().top -64
-        }, 1200, "easeInOutExpo");
+        }, 1250, "linear");
 
       
     });
@@ -119,8 +119,7 @@ $(document).ready(function() {
 /*Scroll to top when arrow up clicked END*/
 
 // AOS
-<script>
   AOS.init();
-</script>
+
 
 
